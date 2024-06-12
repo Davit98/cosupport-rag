@@ -1,0 +1,16 @@
+.git/
+.idea/
+.logs/
+venv/
+
+notebooks/
+data/
+tests/
+
+.dockerignore
+.gitignore
+Dockerfile
+README.md
+
+# macOS
+.DS_Store
