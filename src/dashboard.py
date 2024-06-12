@@ -37,4 +37,7 @@ def set_layout() -> None:
 
 
 if __name__ == '__main__':
-    set_layout()
+    try:
+        set_layout()
+    except Exception as e:
+        st.error(f'The website is unable to respond. An error occurred due to: {e}', icon="🚨")
